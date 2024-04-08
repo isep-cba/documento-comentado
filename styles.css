@@ -37,6 +37,15 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
 	}
 }
 
+.menu {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: black
+  background-color: white;
+
+}
+
 .resaltado {
     background-color: yellow;
   }
