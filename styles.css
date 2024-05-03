@@ -47,16 +47,16 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
 }
 
 .comentario {
-  text-align: left; text-decoration: underline dotted #F16A70;
+  text-align: left; text-decoration: underline #5c5ced;
 }
 
-.a {
-  text-decoration-color: #F16A70; 
+a {
+  color: #5c5ced;
 }
 
 
 .resaltado {
-    background-color: #FCE0B9;
+    background-color: #fcedd9;
   }
 
 
