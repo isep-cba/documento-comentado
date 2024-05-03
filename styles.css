@@ -39,22 +39,40 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
 }
 
 
+/* MENU INDICE */
 
-/* The side navigation menu */
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #f0f0f0; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 40px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+/* boton de apertura */
+
+.menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: white;
+  background-color: #5c5ced;
+  border: 0px;
+  transition: 0.3s;
 }
 
-/* The navigation menu links */
+.menu:hover {
+  background-color: #ee7a54;
+}
+
+/* estilos del menu lateral de indice */
+
+.sidenav {
+  height: 100%; 
+  width: 0; /* 0 width - cambiar el ancho abierto en scripts.js */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+  padding-top: 40px;
+  transition: 0.5s;
+}
+
 .sidenav a {
   padding: 2px 2px 2px 20px;
   text-decoration: none;
@@ -64,12 +82,10 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #ee7a54;
 }
 
-/* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -78,28 +94,18 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
   margin-left: 50px;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+/* estilo del contenido general de la pagina */
 #main {
   transition: margin-left .5s;
   padding: 0px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/* para dispositivos donde la altura es menor a 450px */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
 
-
-
-
-.menu {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  color: white;
-  background-color: #5c5ced;
-}
+/* TERMINA ESTILO DEL MENU */
 
 .comentario {
   text-align: left; text-decoration: underline #5c5ced;
