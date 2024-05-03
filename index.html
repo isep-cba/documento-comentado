@@ -13,6 +13,41 @@
 
 </head>
 <body>
+
+<!-- MENU 2 -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#1">1. Evaluación Inicial </a>
+      <a href="#2">2. Selección y definición del problema</a>
+      <a href="#3">3. Definición de los objetivos del proyecto</a>
+      <a href="#4">4. Breve fundamentación del proyecto</a>
+      <a href="#5">5. Líneas de acción: su sentido y organización:</a>
+          <a class="mx-5" href="#5a">a. Primeros Años: Audicuentos</a>
+          <a class="mx-5" href="#5b">b. Segundos Años: La lectura y la escritura como constructores de ciudadanía</a>
+          <a class="mx-5" href="#5c">c. Terceros Años: Energías renovables vs no renovables</a>
+          <a class="mx-5" href="#5d">d. Cuartos Años: Aportes a la Página Institucional y Revista Institucional</a>
+          <a class="mx-5" href="#5e">e. Quintos Años: Ensayos como género discursivo de contacto</a>
+          <a class="mx-5" href="#5f">f. Sextos Años: Profundización de los espacios curriculares</a>
+      <a href="#6">6. Proyectos Institucionales con fortalecimiento de la capacidad Oralidad, Lectura y Escritura</a>
+      <a href="#7">7. Bibliografía</a>
+    </p>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<button class="btn btn-primary menu" onclick="openNav()">Índice</button>
+
+
+ <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasmenu" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Índice</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p class="my-2" style="font-size: 1em;">
+      
+  </div>
+</div>
+
 <!-- PROGRESS BAR -->
 <div id="main">
 
@@ -64,36 +99,7 @@
   </div>
   </div>
 
-<!--MENU-->
-<div class="menu">
-  <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasmenu" role="button" aria-controls="offcanvasExample">
-    Índice  </a>
-  
-</div>
 
- <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasmenu" aria-labelledby="offcanvasExampleLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Índice</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <p class="my-2" style="font-size: 1em;">
-      <a href="#1">1. Evaluación Inicial </a></br>
-      <a href="#2">2. Selección y definición del problema</a></br>
-      <a href="#3">3. Definición de los objetivos del proyecto</a></br>
-      <a href="#4">4. Breve fundamentación del proyecto</a></br>
-      <a href="#5">5. Líneas de acción: su sentido y organización:</a></br>
-          <a class="mx-5" href="#5a">a. Primeros Años: Audicuentos</a></br>
-          <a class="mx-5" href="#5b">b. Segundos Años: La lectura y la escritura como constructores de ciudadanía</a></br>
-          <a class="mx-5" href="#5c">c. Terceros Años: Energías renovables vs no renovables</a></br>
-          <a class="mx-5" href="#5d">d. Cuartos Años: Aportes a la Página Institucional y Revista Institucional</a></br>
-          <a class="mx-5" href="#5e">e. Quintos Años: Ensayos como género discursivo de contacto</a></br>
-          <a class="mx-5" href="#5f">f. Sextos Años: Profundización de los espacios curriculares</a></br>
-      <a href="#6">6. Proyectos Institucionales con fortalecimiento de la capacidad Oralidad, Lectura y Escritura</a></br>
-      <a href="#7">7. Bibliografía</a></br>
-    </p>
-  </div>
-</div>
       
 
 <!-- -->
@@ -121,7 +127,7 @@
 <!-- BLOQUE 1 -->
 <div id="1" class="jumbotron d-flex align-items-center min-vh-100 p-2 bg-verdemusgo">
     <div class="container-fluid" >
-      <div class="row">
+      <div class="row" style="margin-top: 10vh;">
         <div class="col-sm-6" style="margin: auto; text-align: left;">
           <p class="h1 my-2">1. <a data-bs-toggle="offcanvas" href="#offcanvasScrolling0" class="comentario">Evaluación inicial</a></p>
           <p class="my-2" style="font-size: 1em; text-align: justify;" >
@@ -440,7 +446,7 @@
             </tr>
             </tbody>
             </table></p>
-            <p class="my-2" style="font-size: 1em; text-align: justify;"><b>a) Primeros Años (A, B, C, D) Audicuentos.</b>
+            <p class="my-2" id="5a" style="font-size: 1em; text-align: justify;"><b>a) Primeros Años (A, B, C, D) Audicuentos.</b>
           
             <p class="my-2" style="font-size: 1em; text-align: justify;"><b> Espacios involucrados: Lengua y Literatura, Música, Gabinete de Computación.</b></p>
         
@@ -478,7 +484,7 @@
                 </tbody>
                 </table>
               </p>
-              <p class="my-2" style="font-size: 1em;" ><b>b) Segundos Años: La lectura y la escritura como constructores de ciudadanía</b></p>
+              <p class="my-2" id="5b" style="font-size: 1em;" ><b>b) Segundos Años: La lectura y la escritura como constructores de ciudadanía</b></p>
               <p class="my-2" style="font-size: 1em;" ><b>Espacios involucrados: Lengua y Literatura - Ciudadanía y Participación.</b></p>
               <p></p>
               <p class="my-2" style="font-size: 1em;" ><b>Sentido y Organización:</b>
@@ -562,7 +568,7 @@
                 </tbody>
                 </table>
             </p>
-            <p class="my-2" style="font-size: 1em;" ><b>c) Terceros Años: Energías renovables vs no renovables</b></p>
+            <p class="my-2" id="5c" style="font-size: 1em;" ><b>c) Terceros Años: Energías renovables vs no renovables</b></p>
             <p class="my-2" style="font-size: 1em;" ><b>Espacios involucrados: Lengua y Literatura, Física, Geografía, Química.</b></p>
             <p class="my-2" style="font-size: 1em;" ><b>Sentido y organización:</b></p>
             <p class="my-2" style="font-size: 1em; text-align: justify;" >La discusión social en torno a las energías renovables y no renovables presenta  un dilema complejo que puede estudiarse en sus partes constitutivas. Para Lemke (1997), “aprender el lenguaje de la ciencia” implica aprender la forma de usar los términos, la relación entre ellos, el significado y sentido de las metáforas, las representaciones, etc., lo que pone en evidencia que ese aprendizaje va mucho más allá del aprendizaje del vocabulario científico. Así, por ejemplo, tanto las explicaciones, las argumentaciones, la formulación de preguntas, como los diagramas, las expresiones matemáticas, las representaciones simbólicas, las fórmulas y ecuaciones químicas, etc. son medios para la comprensión de los modelos de las Ciencias Naturales, pero también son objetos de enseñanza, ya que aprenderlos implica apropiarse del lenguaje científico.</p>
@@ -621,7 +627,7 @@
                 </tr>
                 </tbody>
                 </table></p>
-                <p class="my-2" style="font-size: 1em;" ><b>d) Cuartos Años: Aportes a la Página Institucional (en su sección  informativa) y Revista Escolar</b></p>
+                <p class="my-2" id="5d" style="font-size: 1em;" ><b>d) Cuartos Años: Aportes a la Página Institucional (en su sección  informativa) y Revista Escolar</b></p>
                 <p class="my-2" style="font-size: 1em;" ><b>Espacios involucrados:</b></p>
                 <p class="my-2" style="font-size: 1em;" ><b>Lengua y Literatura, EOI Comunicación y todos los espacios curriculares  de los cuartos años.</b></p>
                 <p class="my-2" style="font-size: 1em; text-align: justify;" >Dada la necesidad de contar con medios informativos que lleguen a la comunidad en general mostrando las diversas actividades, propuestas y reportes que pongan de relieve los logros alcanzados por nuestros estudiantes; la Página Institucional y la Revista Institucional se transforman en herramientas indispensables, cada una en su modalidad, para asegurar el intercambio y la renovación. Los géneros informativos periodísticos cumplen la función de mapear institucionalmente a una sociedad dada  clasificando los acontecimientos según dimensiones que son modos de escribir y remiten a “secciones” que también son maneras específicas de leer la realidad.</p> 
@@ -631,14 +637,14 @@
                 <p class="my-2" style="font-size: 1em; text-align: justify;" >Se propondrá a los profesores de los diferentes espacios curriculares de ambos ciclos que elaboren un cronograma de actividades que puedan ser  transformadas en reportes por los estudiantes.</p>
                 <p class="my-2" style="font-size: 1em; text-align: justify;" >Se brindará un Taller de fotografía a los estudiantes para comprender  las particularidades comunicativas del lenguaje visual y su posibilidad de  complementar o reemplazar, en ciertos casos, la información escrita.</p>
                 <p class="my-2" style="font-size: 1em;" ><b>Duración: </b>Los reportes y notas en general se producen durante todo el año.</p>
-          <p class="my-2" style="font-size: 1em;" ><b>e) Quintos Años: Ensayos</b></p>
+          <p class="my-2" id="5e" style="font-size: 1em;" ><b>e) Quintos Años: Ensayos</b></p>
           <p class="my-2" style="font-size: 1em;" ><b>Espacio Curricular: Lengua y Literatura.</b></p>
           <p class="my-2" style="font-size: 1em; text-align: justify;" >El ensayo, el viaje, el diálogo, la lectura, la pintura de sí, la interpretación del mundo, están muy ligados a partir de esa genial operación, de ese monumental golpe de timón, que imprimió Michel de Montaigne a la prosa cuando la convirtió en escritura del yo e hizo del punto de vista un verdadero punto de partida (Weinberg, 2012).</p>
           <p class="my-2" style="font-size: 1em; text-align: justify;" >El recorrido textual previsto en el Ciclo Orientado en propuestas de lectura y escritura propone en Lengua y Literatura el abordaje del ensayo como un género discursivo que abarca otros géneros e implica una tensión entre dos apuestas: describir la realidad tal cual es en sí misma pero, al mismo tiempo, compartir un punto de vista sobre ella. La lectura de ensayos, al mismo tiempo, implica la puesta en acto de las estrategias de un lector avezado, capaz de comprender profundamente literalidades e implicancias, aportando su propia experiencia y pensamiento a la conformación del sentido.</p>
           <p class="my-2" style="font-size: 1em; text-align: justify;" >Desde estas tensiones, se propone a los estudiantes elaborar un plan de texto complejo, que implique la libertad en la elección temática y la posibilidad de investigar, consultar, asesorarse y destacar materiales desde todos los campos del saber.</p>
           <p class="my-2" style="font-size: 1em; text-align: justify;" >Las actividades con ensayos oscilarán entre talleres y propuestas recursivas de trabajo con borradores hasta encontrar la versión más acabada de la escritura personal.</p>
           <p class="my-2" style="font-size: 1em; text-align: justify;" >Los ensayos formarán parte del portafolio de evidencias en torno al fortalecimiento de la capacidad oralidad, lectura y escritura propuesto por el Programa.</p>       
-          <p class="my-2" style="font-size: 1em;" ><b>f) Sextos Años: Profundización de los espacios curriculares. Sentido y Organización:</b></p>
+          <p class="my-2" id="5f" style="font-size: 1em;" ><b>f) Sextos Años: Profundización de los espacios curriculares. Sentido y Organización:</b></p>
           <p class="my-2" style="font-size: 1em; text-align: justify;" >Teniendo como punto de partida los espacios de la Formación Orientada, se ofrecerán cuatro espacios areales que serán presentados a partir de la integración de dos o más áreas. Los jóvenes que cursan los 6° años elegirán un espacio a cursar independiente de la Formación a la que concurren. Esto se sostiene desde una perspectiva de oportunidad constante ya que, los alumnos pertenecientes a determinada orientación no siempre sostienen su interés por un futuro relacionado con ella sino que, en ocasiones prefiere una carrera de nivel superior diferenciada a lo que fue su elección posibilitada en tercer año y a su vez porque, a pesar de ser cada ciclo orientado una propuesta completa, se define específicamente y es entonces donde la oportunidad de profundizar otros espacios o inclusive el mismo relacionado con la orientación precede oportunidades de aprendizajes constantes.</p>
           <p class="my-2" style="font-size: 1em; text-align: justify;" >Pedagógicamente nuestros proyectos escolares tienden a lograr que los alumnos tengan una participación activa, pero como esta propuesta construye y profundiza saberes, cada integrante elegirá un espacio determinado, por el cual deberá responder pedagógicamente, pues la evaluación afectará directamente a las disciplinas correspondientes al diseño curricular del curso al que pertenece. (anexo 1)</p>
           <p class="my-2" style="font-size: 1em;" ><b>Objetivos Generales</b></p>
@@ -810,5 +816,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="scripts.js" charset="UTF-8"></script>
+
 </body>
 </html>
